@@ -39,6 +39,7 @@ form.addEventListener("submit", function(e){
                 hexMain.innerHTML += `<div class="col white" onclick = "foo(${i})">${data.colors[i].hex.value}
                 </div>`   
                 col[i].style.width = `${100 / count.value}%`          
-            }                       
+            }
+            hexMain.style.fontSize = `${5 / count.value}rem`                       
         })   
 })
